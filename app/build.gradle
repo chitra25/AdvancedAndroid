@@ -35,6 +35,8 @@ dependencies {
     annotationProcessor "com.ryanharter.auto.value:auto-value-moshi:$autoValueMoshiVersion"
     compileOnly "com.ryanharter.auto.value:auto-value-moshi-annotations:$autoValueMoshiVersion"
 
+    implementation "com.jakewharton.threetenabp:threetenabp:$threeTenAbpVersion"
+
     compileOnly "com.google.auto.value:auto-value:$autoValueVersion"
     annotationProcessor "com.google.auto.value:auto-value:$autoValueVersion"
 
